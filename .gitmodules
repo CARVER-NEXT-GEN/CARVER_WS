@@ -19,3 +19,15 @@
 [submodule "src/sllidar_ros2"]
 	path = src/sllidar_ros2
 	url = https://github.com/CARVER-NEXT-GEN/sllidar_ros2.git
+[submodule "src/carver_motor"]
+	path = src/carver_motor
+	url = https://github.com/CARVER-NEXT-GEN/carver_motor.git
+[submodule "carver_interface"]
+	path = carver_interface
+	url = https://github.com/CARVER-NEXT-GEN/carver_interface.git
+[submodule "src/carver_interface"]
+	path = src/carver_interface
+	url = https://github.com/CARVER-NEXT-GEN/carver_interface.git
+[submodule "firmware/H745/carver_interfaces"]
+	path = firmware/H745/carver_interfaces
+	url = https://github.com/CARVER-NEXT-GEN/carver_interfaces.git
