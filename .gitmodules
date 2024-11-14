@@ -1,0 +1,21 @@
+[submodule "src/carver_description"]
+	path = src/carver_description
+	url = https://github.com/CARVER-NEXT-GEN/carver_description.git
+[submodule "src/robot_localization"]
+	path = src/robot_localization
+	url = https://github.com/CARVER-NEXT-GEN/robot_localization.git
+	branch = humble-devel
+[submodule "src/slam_toolbox"]
+	path = src/slam_toolbox
+	url = https://github.com/CARVER-NEXT-GEN/slam_toolbox.git
+	branch = humble
+[submodule "src/ros2_laser_scan_merger"]
+	path = src/ros2_laser_scan_merger
+	url = https://github.com/CARVER-NEXT-GEN/ros2_laser_scan_merger.git
+[submodule "src/pointcloud_to_laserscan"]
+	path = src/pointcloud_to_laserscan
+	url = https://github.com/CARVER-NEXT-GEN/pointcloud_to_laserscan.git
+	branch = humble
+[submodule "src/sllidar_ros2"]
+	path = src/sllidar_ros2
+	url = https://github.com/CARVER-NEXT-GEN/sllidar_ros2.git
