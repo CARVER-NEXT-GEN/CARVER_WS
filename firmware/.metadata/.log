@@ -1,0 +1,38 @@
+!SESSION 2024-11-16 03:36:52.531 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/carver/Documents/GitHub/CARVER_WS/firmware -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-16 03:36:56.302
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-16 03:36:56.303
+!MESSAGE Log4j2 initialized with config file /home/carver/Documents/GitHub/CARVER_WS/firmware/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-16 03:36:57.927
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 368 2024-11-16 03:37:01.364
+!MESSAGE Resource '/carver_insterface' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/carver_insterface' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at com.st.stm32cube.common.projectcreation.core.ProjectUtilities.hasProjectNature(ProjectUtilities.java:167)
+	at com.st.stm32cube.common.projectcreation.core.ProjectUtilities.hasProjectNature(ProjectUtilities.java:223)
+	at com.st.stm32cube.ide.mcu.analytics.core.MCUAnalyticsUtils.getRootProject(MCUAnalyticsUtils.java:176)
+	at com.st.stm32cube.ide.mcu.analytics.core.MCUAnalyticsRegister.send(MCUAnalyticsRegister.java:467)
+	at com.st.stm32cube.ide.mcu.analytics.core.MCUAnalyticsRegister.lambda$0(MCUAnalyticsRegister.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-16 03:37:07.329
+!MESSAGE Indexed 'carver_insterface_CM7' (57 sources, 134 headers) in 6.41 sec: 15,541 declarations; 116,801 references; 23 unresolved inclusions; 337 syntax errors; 3,506 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-16 03:37:11.973
+!MESSAGE Indexed 'carver_insterface_CM4' (40 sources, 107 headers) in 2.05 sec: 11,801 declarations; 99,290 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0018%)

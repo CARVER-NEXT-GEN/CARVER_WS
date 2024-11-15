@@ -37,11 +37,17 @@ public:
 
     // Subscribers
     cmd_vel_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
-      "cmd_vel", 10, std::bind(&OdomNode::cmd_vel_callback, this, std::placeholders::_1));
+      "cmd_vel", 10, std::bind(&OdomNode::cmd_vel_callback, this, std::placeholders::_1));\
+    
+    // amt_read_sub_ = this->create_subscription<amt212ev_interfaces::msg::AmtRead>(
+    //   "amt_publisher", 10, std::bind(&OdomNode::amt_callback, this, std::placeholders::_1)
+    // );
     amt_read_sub_ = this->create_subscription<amt212ev_interfaces::msg::AmtRead>(
-      "amt_publisher", 10, std::bind(&OdomNode::amt_callback, this, std::placeholders::_1)
+        "amt_publisher", 
+        rclcpp::QoS(10).reliability(rclcpp::ReliabilityPolicy::BestEffort),
+        std::bind(&OdomNode::amt_callback, this, std::placeholders::_1)
     );
-
+    
     // Timer for periodic updates
     timer_ = this->create_wall_timer(
       std::chrono::milliseconds(10), std::bind(&OdomNode::update_odometry, this));
