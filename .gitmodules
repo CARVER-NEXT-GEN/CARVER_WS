@@ -25,9 +25,9 @@
 [submodule "carver_interface"]
 	path = carver_interface
 	url = https://github.com/CARVER-NEXT-GEN/carver_interface.git
-[submodule "src/carver_interface"]
-	path = src/carver_interface
-	url = https://github.com/CARVER-NEXT-GEN/carver_interface.git
-[submodule "firmware/H745/carver_interfaces"]
-	path = firmware/H745/carver_interfaces
+[submodule "src/carver_interfaces"]
+	path = src/carver_interfaces
 	url = https://github.com/CARVER-NEXT-GEN/carver_interfaces.git
+[submodule "firmware/H745/carver_interfaces"]
+	path = firmware/H745/carver_interface
+	url = https://github.com/CARVER-NEXT-GEN/carver_interface.git
