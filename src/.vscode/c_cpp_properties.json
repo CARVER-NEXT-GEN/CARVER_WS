@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/carver/Documents/GitHub/CARVER_WS/install/steering_controllers_library/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/install/slam_toolbox/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/install/robot_localization/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/install/pointcloud_to_laserscan/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/install/carver_interfaces/include/**",
+        "/home/carver/carver_ws/install/xbox_interfaces/include/**",
+        "/home/carver/carver_ws/install/mqtt_interfaces/include/**",
+        "/home/carver/carver_ws/install/carver_interface/include/**",
+        "/home/carver/microros_ws/install/micro_ros_agent/include/**",
+        "/home/carver/microros_ws/install/micro_ros_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/src/carver_description/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/src/carver_motor/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/src/pointcloud_to_laserscan/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/src/robot_localization/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/src/slam_toolbox/include/**",
+        "/home/carver/Documents/GitHub/CARVER_WS/src/steering_controllers_library/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
