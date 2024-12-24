@@ -32,3 +32,6 @@
 [submodule "firmware/G474/Carver_Interface"]
 	path = firmware/G474/Carver_Interface
 	url = https://github.com/CARVER-NEXT-GEN/Carver_Interface.git
+[submodule "firmware/H755/IMU_Interface"]
+	path = firmware/H755/IMU_Interface
+	url = https://github.com/CARVER-NEXT-GEN/IMU_Interface.git
