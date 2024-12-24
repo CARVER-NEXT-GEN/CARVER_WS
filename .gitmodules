@@ -35,3 +35,7 @@
 [submodule "firmware/H755/IMU_Interface"]
 	path = firmware/H755/IMU_Interface
 	url = https://github.com/CARVER-NEXT-GEN/IMU_Interface.git
+[submodule "firmware/G474/Carver_Steering/AMT212E-V"]
+	path = firmware/G474/Carver_Steering/AMT212E-V
+	url = https://github.com/CARVER-NEXT-GEN/AMT212E-V.git
+	branch = G474RE
