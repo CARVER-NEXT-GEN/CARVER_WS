@@ -1246,3 +1246,1129 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display.r
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2024-12-26 17:01:27.242 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-26 17:01:30.297
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-26 17:01:32.628
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-26 17:01:32.629
+!MESSAGE Log4j2 initialized with config file /home/carver/Documents/GitHub/CARVER_WS/firmware/.metadata/.log4j2.xml
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.055
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.056
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.056
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.056
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.056
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-26 17:01:35.059
+!MESSAGE Problem running CDT Scanner Discovery provider com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.059
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.060
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.060
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.060
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 277 2024-12-26 17:01:35.060
+!MESSAGE Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.060
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.061
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 277 2024-12-26 17:01:35.061
+!MESSAGE Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-26 17:01:35.061
+!MESSAGE Problem running CDT Scanner Discovery provider com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.061
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.061
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 277 2024-12-26 17:01:35.061
+!MESSAGE Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.082
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.082
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.083
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.083
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.083
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-26 17:01:35.084
+!MESSAGE Problem running CDT Scanner Discovery provider com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.084
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.084
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.085
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.428
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.429
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.429
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.429
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.429
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-26 17:01:35.430
+!MESSAGE Problem running CDT Scanner Discovery provider com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.430
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.430
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.430
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM4/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.520
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.520
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.520
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.520
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.520
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-26 17:01:35.523
+!MESSAGE Problem running CDT Scanner Discovery provider com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.523
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.523
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2024-12-26 17:01:35.523
+!MESSAGE Could not write file: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/H755/IMU_Interface/CM7/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.851
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 277 2024-12-26 17:01:35.851
+!MESSAGE Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.851
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.851
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 277 2024-12-26 17:01:35.851
+!MESSAGE Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-26 17:01:35.852
+!MESSAGE Problem running CDT Scanner Discovery provider com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2024-12-26 17:01:35.852
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	... 6 more
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 2 org.eclipse.cdt.core 4 0 2024-12-26 17:01:35.852
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkReadOnlyParent(LocalFile.java:103)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:475)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 11 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 277 2024-12-26 17:01:35.852
+!MESSAGE Parent of resource: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml is marked as read-only.
+!STACK 0
+java.io.FileNotFoundException: /home/carver/Documents/GitHub/CARVER_WS/firmware/G474/Carver_Interface/.settings/language.settings.xml (Permission denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1224)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:324)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:360)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:446)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:911)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-26 17:01:35.957
+!MESSAGE Started RMI Server, listening on port 41337

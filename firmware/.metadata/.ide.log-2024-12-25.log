@@ -1,0 +1,1 @@
+2024-12-25 23:19:59,496 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SWT SessionManagerDBus: Failed to UnregisterClient: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
