@@ -2,5 +2,7 @@
 /build
 /install
 /log
+/firmware/tempura_PID
+/firmware/.metadata
 /src/ros2_control_demos
 /src/ros2_controllers
