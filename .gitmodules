@@ -37,3 +37,6 @@
 	path = firmware/G474/Carver_Steering/AMT212E-V
 	url = https://github.com/CARVER-NEXT-GEN/AMT212E-V.git
 	branch = G474RE
+[submodule "firmware/G474/Carver_Interface"]
+	path = firmware/G474/Carver_Interface
+	url = https://github.com/CARVER-NEXT-GEN/Carver_Interface.git
