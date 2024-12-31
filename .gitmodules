@@ -16,9 +16,6 @@
 	path = src/pointcloud_to_laserscan
 	url = https://github.com/CARVER-NEXT-GEN/pointcloud_to_laserscan.git
 	branch = humble
-[submodule "src/sllidar_ros2"]
-	path = src/sllidar_ros2
-	url = https://github.com/CARVER-NEXT-GEN/sllidar_ros2.git
 [submodule "src/carver_interfaces"]
 	path = src/carver_interfaces
 	url = https://github.com/CARVER-NEXT-GEN/carver_interfaces.git
