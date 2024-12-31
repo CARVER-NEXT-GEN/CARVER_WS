@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Carver-Interface,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Interface_CM4 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Interface_CM7 Debug (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Interface_CM7 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:tempura_PID Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UnitTest_AMT21_NoROS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:AMT212E-V_Micro-ROS_UART Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Carver_Interface Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Carver-Interface,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Interface_CM4 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Interface_CM7 Debug (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Interface_CM7 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:tempura_PID Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UnitTest_AMT21_NoROS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:AMT212E-V_Micro-ROS_UART Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:AMT212E-V_Micro-ROS_UART\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:AMT212E-V_Micro-ROS_UART\ Debug/activeLaunchTarget=null\:---
