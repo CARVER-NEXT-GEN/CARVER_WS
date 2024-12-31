@@ -37,3 +37,8 @@
 [submodule "firmware/G474/Carver_Interface"]
 	path = firmware/G474/Carver_Interface
 	url = https://github.com/CARVER-NEXT-GEN/Carver_Interface.git
+
+[submodule "src/rplidar_ros"]
+	path = src/rplidar_ros
+	url = https://github.com/CARVER-NEXT-GEN/rplidar_ros.git
+	branch = ros2
