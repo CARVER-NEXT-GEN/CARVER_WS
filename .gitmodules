@@ -46,3 +46,7 @@
 	path = firmware/G474/Carver_BNO_055
 	url = https://github.com/CARVER-NEXT-GEN/Adafruit-9-DOF-Absolute-Orientation-IMU-Fusion-Breakout---BNO055.git
 	branch = G4_UROS_UART
+[submodule "firmware/G474/Carver_BNO_086"]
+	path = firmware/G474/Carver_BNO_086
+	url = https://github.com/CARVER-NEXT-GEN/SparkFun-VR-IMU-Breakout-BNO086-Qwiic-SPI.git
+	branch = G4_UROS_UART
