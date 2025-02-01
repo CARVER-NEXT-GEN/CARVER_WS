@@ -42,7 +42,3 @@
 	path = src/rplidar_ros
 	url = https://github.com/CARVER-NEXT-GEN/rplidar_ros.git
 	branch = ros2
-[submodule "firmware/G474/Carver_BNO_055/Adafruit-9-DOF-Absolute-Orientation-IMU-Fusion-Breakout---BNO055"]
-	path = firmware/G474/Carver_BNO_055/Adafruit-9-DOF-Absolute-Orientation-IMU-Fusion-Breakout---BNO055
-	url = https://github.com/CARVER-NEXT-GEN/Adafruit-9-DOF-Absolute-Orientation-IMU-Fusion-Breakout---BNO055.git
-	branch = G4_UROS_UART
